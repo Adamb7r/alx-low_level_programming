@@ -3,22 +3,22 @@ include "main.h"
 /**
  * print_triangle - prints a triangle
  * @size: size of the triangle
- * Return: Always 0.
+ * Return: Always 0 (success)
 */
 
 void print_triangle(int size)
 {
-	int i, j;
+	int high, base;
 
 	if (size <= 0)
 		_putchar('\n');
 	else
 	{
-		for (i = 1; i <= size; i++)
+		for (high = 1; high <= size; high++)
 		{
-			for (j = 1; j <= size; j++)
+			for (base = 1; base <= size; base++)
 			{
-				if ((i + j) <= size)
+				if ((high + base) <= size)
 					_putchar(' ');
 				else
 					_putchar('#');
