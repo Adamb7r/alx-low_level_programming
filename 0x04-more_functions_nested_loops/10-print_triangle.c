@@ -11,17 +11,20 @@ void print_triangle(int size)
 	int high, base;
 
 	if (size <= 0)
-		_putchar('\n');
-	else
 	{
 		for (high = 1; high <= size; high++)
 		{
-			for (base = 1; base <= size; base++)
+			for (base = size - high; base > 0; base--)
 			{
-				if ((high + base) <= size)
-					_putchar(' ');
-				else
-					_putchar('#');
+				_putchar(' ');
+			}
+			for (base = 0; base < high; base++)
+			{
+				_putchar('#');
+			}
+			if (high == size)
+			{
+				continue;
 			}
 			_putchar('\n');
 		}
