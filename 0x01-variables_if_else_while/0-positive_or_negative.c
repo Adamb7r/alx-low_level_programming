@@ -5,9 +5,9 @@
 /**
 * main - entry point
 *
-* Description: print positive or zero or negative
+* Description: positive or zero or negative
 *
-* Return : 0 (success)
+* Return : 0.
 */
 
 int main(void)
