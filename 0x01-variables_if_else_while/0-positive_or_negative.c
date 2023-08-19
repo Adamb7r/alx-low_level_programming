@@ -1,13 +1,13 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
-* main - entry point
-*
-* Description:true or false validation
-*
-* Return : 0 (success)
+ * main - entry point
+ *
+ * Description: true or false validation
+ *
+ * Return : 0 (success)
 */
 
 int main(void)
